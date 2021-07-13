@@ -1,0 +1,32 @@
+.header{
+    background: #e5e1e9;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-items{
+      list-style: none;
+      display: flex;
+    align-items:center;
+    font-size: 18px;
+    font-weight: 600;  
+  }
+  .header .nav-items li{
+      padding: 0 30px;
+  }
+  .header .nav-items li:hover{
+    color: rgb(140, 83, 194);
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+  .header .nav-items li{
+    padding: 0 15px;
+  }
+}
+@media (max-width:400px){
+  .header .nav-items li{
+    padding: 0 10px;
+  }
+}
